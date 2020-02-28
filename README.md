@@ -12,7 +12,7 @@
 
 Follow [this link](https://github.com/Make-School-Courses/BEW-2.5-Strongly-Typed-Ecosystems/blob/master/Lessons/Lesson07.md#setup-project) in order to get the project set up.
 
-## Notes - Samuel Folledo
+## My Notes - To Setup a Go Slack Bot
 
 1. Create a Slack App at https://api.slack.com/apps?new_classic_app=1
 2. Clone [Dani's project](https://make-school-courses.github.io/BEW-2.5-Strongly-Typed-Languages/#/Lessons/Lesson09) or [my project](https://github.com/SamuelFolledo/EbayDeals-SlackBot/commit/590d63aea54dc9d65d33a799ff3c62695d54974e) which does not have a go.mod and go.sum
@@ -20,5 +20,9 @@ Follow [this link](https://github.com/Make-School-Courses/BEW-2.5-Strongly-Typed
   - Add name, color, details
   - Give permissions the slack bot need in OAuth & Permissions
   - Install the app
-4. Create a .env file by running cp .env.sample .env.
+4. Install app to the workspace
 5. Get the bot token and put token in .env.sample
+6. Create a .env file by running ```cp .env.sample .env``` which copies code in .env.sample to .env
+7. Run app with ```go build && go run main.go```
+7. Add bot to a channel and try __Reinstall App__ if it doesn't work
+

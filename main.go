@@ -7,6 +7,7 @@ import (
 
 	"github.com/droxey/goslackit/slack"
 	_ "github.com/joho/godotenv/autoload"
+	// "github.com/slack-go/slack"
 )
 
 // main is our entrypoint, where the application initializes the Slackbot.
