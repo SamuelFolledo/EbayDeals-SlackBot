@@ -22,4 +22,5 @@ func slackIt() {
 	botToken := os.Getenv("BOT_OAUTH_ACCESS_TOKEN")
 	slackClient := slack.CreateSlackClient(botToken)
 	slack.RespondToEvents(slackClient)
+	// slackClient.SendMessage(slackClient.NewOutgoingMessage("Eyoooo", ev.Channel))
 }

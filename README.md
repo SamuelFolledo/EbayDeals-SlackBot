@@ -19,9 +19,13 @@ Follow [this link](https://github.com/Make-School-Courses/BEW-2.5-Strongly-Typed
 3. Set up Slack project
   - Add name, color, details
   - Give permissions the slack bot need in OAuth & Permissions
+    - __Important__ to click ```Add an OAuth Scope``` and 
   - Install the app
 4. Install app to the workspace
-5. Get the bot token and put token in .env.sample
+5. Get the bot token and put token in .env.sample like so
+  ```
+  BOT_OAUTH_ACCESS_TOKEN="xoxb-471558618------"
+  ```
 6. Create a .env file by running ```cp .env.sample .env``` which copies code in .env.sample to .env
 7. Run app with ```go build && go run main.go```
 7. Add bot to a channel and try __Reinstall App__ if it doesn't work
